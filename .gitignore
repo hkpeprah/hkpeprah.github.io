@@ -1,0 +1,13 @@
+# Server files and access-control
+.htpasswd
+.htaccess
+.DS_Store
+
+# Generated files and directories
+build/
+**/.sass-cache
+
+# NodeJS logs and temporary files
+# Module directories
+node_modules
+*.log
