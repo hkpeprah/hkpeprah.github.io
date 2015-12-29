@@ -284,7 +284,7 @@ a.light-link:hover,
 .page-content section {
   width: 100%;
   min-height: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .page-content section p {
@@ -357,11 +357,10 @@ a.light-link:hover,
 .project {
   width: 100%;
   display: table;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .project .project-info {
-  height: 350px;
   margin-bottom: 5px;
 }
 
@@ -448,8 +447,7 @@ a.light-link:hover,
 }
 
 .blog-target .blog-post.blog-post-short {
-  padding: 10px 5px 10px 5px;
-  position: relative;
+  margin-bottom: 10px;
   box-sizing: border-box;
   border-bottom: 1px solid #CCC;
 }
