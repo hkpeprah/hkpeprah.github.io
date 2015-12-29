@@ -1,4 +1,5 @@
 (function() {
+  var currentScript = document.currentScript;
   var container = document.getElementsByClassName('random')[0];
 
   function generateYT(id) {
@@ -44,10 +45,9 @@
 
   window.onload = (function() {
     rand(function() {
-      document
-        .currentScript
+      currentScript
         .parentNode
-        .removeChild(document.currentScript);
+        .removeChild(currentScript);
     });
   });
 })();
