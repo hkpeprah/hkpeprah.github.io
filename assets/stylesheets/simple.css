@@ -406,6 +406,12 @@ a.light-link:hover,
   padding-bottom: 8px;
 }
 
+@media screen and (min-width: 1025px) {
+  .project .project-content {
+    padding-left: 10px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .project {
     min-height: 650px;
