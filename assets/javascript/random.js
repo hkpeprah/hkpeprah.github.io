@@ -25,17 +25,13 @@
     var target = document.getElementsByClassName('random')[0];
     var queries = [
       'ZZ5LpwO-An4', // He-Man
-      'PzzqE7EPoIc', // The Rescue
       'm9P4trNWxYk', // Tribunal: Dubbed
       'wo_81xQb2GA', // Touch Your Gun
-      'mfkYUMqCPj0', // Love for Ladd Russo
-      'YlScKUp_1ag', // GANTZ
       'utLWiscq8d4', // Cowboy Bebop Fight Scene
       'yz5BU44_h74', // Pop it, Don't drop it
       'n049JQaXAPE', // Sentry Knockback
       'foXTsDKvRgc', // Clock Tower
-      'dl7CLaZFG1c', // ERB Washington vs. Wallace
-      'SWEb5q0UKVk', // Stop it you ninny
+      'Y9jgxn8I2U0', // Stop it you ninny
       'F0TEvK-mjlg'  // Inner Frat Boy
     ];
     var id = shuffle(queries)[0];
